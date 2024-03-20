@@ -1,0 +1,217 @@
+Enter the number of users (up to 1000): 2
+Enter unique userid (integer of 3 digits): 111
+Enter username: a
+Enter unique userid (integer of 3 digits): 222
+Enter username: b
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 2
+Enter the Expense ID (3 digits): 112
+Enter the amount of the expense: 200
+Enter the User ID who paid the expense: 111
+Enter number of people you wish to share with: (<4) 1
+Enter the User IDs of people to share the expense with (up to 4): 222
+Successfully added new expense and sorted it according to expense id
+112 200.000000 111 1
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 3
+Enter userid of the user to which others owe the money:111
+User ID: 111, Name: a
+User ID: 222, Name: b, Owes: 100.00 for Expense ID: 112
+Total Amount Owed: 100.00
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 2
+Enter the Expense ID (3 digits): 158
+Enter the amount of the expense: 400
+Enter the User ID who paid the expense: 111
+Enter number of people you wish to share with: (<4) 1
+Enter the User IDs of people to share the expense with (up to 4): 222
+Successfully added new expense and sorted it according to expense id
+112 200.000000 111 1
+158 400.000000 111 1
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 3
+Enter userid of the user to which others owe the money:111
+User ID: 111, Name: a
+User ID: 222, Name: b, Owes: 100.00 for Expense ID: 112
+User ID: 222, Name: b, Owes: 200.00 for Expense ID: 158
+Total Amount Owed: 300.00
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 3
+Enter userid of the user to which others owe the money:222
+User ID: 222, Name: b
+Total Amount Owed: 0.00
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 4
+Enter userid of the user who needs to pay::222
+User ID: 222, Name: b
+User ID: 111, Name: a, To Pay: 100.00 for Expense ID: 112
+User ID: 111, Name: a, To Pay: 200.00 for Expense ID: 158
+Total Amount to Pay: 300.00
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 5
+User Balances:
+User ID: 111, Name: a, Balance: -300.00
+User ID: 222, Name: b, Balance: 300.00
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 6
+Enter userid1 and userid2(userid1 is the payer and userid2 is the receiver: 222 111
+Expenses to settle from USER_ID_222 to USER_ID_111:
+Expense ID: 112, Amount: 100.00
+Expense ID: 158, Amount: 200.00
+User Balances:
+User ID: 111, Name: a, Balance: 0.00
+User ID: 222, Name: b, Balance: 0.00
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 5
+User Balances:
+User ID: 111, Name: a, Balance: 0.00
+User ID: 222, Name: b, Balance: 0.00
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 7
+Enter userid of person with all settles balances: 222
+User with User ID 222 has been deleted.
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 5
+User Balances:
+User ID: 111, Name: a, Balance: 0.00
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 7
+Enter userid of person with all settles balances: 111
+User with User ID 111 has been deleted.
+
+Options:
+1. Add User
+2. Add Expense
+3. Amount Owed
+4. Amount to Pay
+5. User Balances
+6. Settle Up
+7. Delete User
+8. Delete Expense
+Any other number to Quit
+Enter your choice: 8
+Enter expense id and user id who payed for it:111
+
+--------------------------------
+Process exited after 468.5 seconds with return value 3221225477
+Press any key to continue . . .
